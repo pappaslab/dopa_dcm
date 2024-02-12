@@ -1,0 +1,36 @@
+subject is for this stochDCM first level is 002
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+TE =
+
+    27
+
+
+Inverting parent model... 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+EM:(+): 1     F: 0.000e+00 dF predicted: 1.127e+01  actual: -1.484e+02 (1.35 sec)
+EM:(+): 2     F: -1.484e+02 dF predicted: 1.461e+01  actual: 1.466e+01 (1.42 sec)
+EM:(+): 3     F: -1.338e+02 dF predicted: 2.725e+01  actual: 5.911e+01 (1.43 sec)
+EM:(+): 4     F: -7.466e+01 dF predicted: 5.455e+01  actual: 1.066e+02 (1.64 sec)
+EM:(+): 5     F: 3.194e+01 dF predicted: 4.185e+01  actual: 8.028e+01 (1.33 sec)
+EM:(+): 6     F: 1.122e+02 dF predicted: 5.164e+01  actual: 1.649e+02 (1.39 sec)

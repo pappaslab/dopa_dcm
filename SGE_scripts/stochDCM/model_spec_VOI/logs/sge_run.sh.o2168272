@@ -1,0 +1,557 @@
+subject is for this stochDCM first level is 033
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+Initialising outputdir for  subject 48 and session 33 and now lets run first level analysis 
+Initialising outputdir for  subject 98 and session romo and now lets run first level analysis 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:12:57 - 27/02/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:12:57 - 27/02/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:13:37 - 27/02/2019
+Done    'fMRI model specification'
+Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:13:37 - 27/02/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:13:38 - 27/02/2019
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (706177 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...7.351651e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.777337e+01 [+4.50]
+  ReML Iteration 3                      :        ...7.593992e+00 [+4.75]
+  ReML Iteration 4                      :        ...3.685368e+00 [+5.00]
+  ReML Iteration 5                      :        ...2.359692e+00 [+5.25]
+  ReML Iteration 6                      :        ...6.460560e-01 [+5.50]
+  ReML Iteration 7                      :        ...4.542756e-01 [+5.75]
+  ReML Iteration 8                      :        ...2.035305e-01 [+6.00]
+  ReML Iteration 9                      :        ...5.402654e-02 [+6.25]
+  ReML Iteration 1                      :        ...7.351613e+01 [+6.50]
+  ReML Iteration 2                      :        ...3.777441e+01 [+6.75]
+  ReML Iteration 3                      :        ...1.556978e+01 [+7.00]
+  ReML Iteration 4                      :        ...1.064757e+00 [+7.25]
+  ReML Iteration 5                      :        ...1.056783e-01 [+7.50]
+  ReML Iteration 6                      :        ...6.418991e-03 [+7.75]
+  ReML Iteration 1                      :        ...7.351536e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.777440e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.559968e+01 [+8.00]
+  ReML Iteration 4                      :        ...1.061658e+00 [+8.00]
+  ReML Iteration 5                      :        ...1.101050e-01 [+8.00]
+  ReML Iteration 6                      :        ...6.523435e-03 [+8.00]
+  ReML Iteration 1                      :        ...7.351381e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.777439e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.559935e+01 [+8.00]
+  ReML Iteration 4                      :        ...1.049832e+00 [+8.00]
+  ReML Iteration 5                      :        ...1.216633e-01 [+8.00]
+  ReML Iteration 6                      :        ...6.792166e-03 [+8.00]
+  ReML Iteration 1                      :        ...7.351070e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.777436e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.559870e+01 [+8.00]
+  ReML Iteration 4                      :        ...1.026580e+00 [+8.00]
+  ReML Iteration 5                      :        ...1.496589e-01 [+8.00]
+  ReML Iteration 6                      :        ...7.355229e-03 [+8.00]
+  ReML Iteration 1                      :        ...7.350450e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.777427e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.559749e+01 [+8.00]
+  ReML Iteration 4                      :        ...9.815227e-01 [+8.00]
+  ReML Iteration 5                      :        ...2.339051e-01 [+8.00]
+  ReML Iteration 6                      :        ...8.571844e-03 [+8.00]
+  ReML Iteration 1                      :        ...7.349211e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.777403e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.559543e+01 [+8.00]
+  ReML Iteration 4                      :        ...8.962263e-01 [+8.00]
+  ReML Iteration 5                      :        ...6.745573e-01 [+8.00]
+  ReML Iteration 6                      :        ...1.119805e-02 [+8.00]
+  ReML Iteration 1                      :        ...7.346739e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.777321e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.559264e+01 [+8.00]
+  ReML Iteration 4                      :        ...7.400164e-01 [+8.00]
+  ReML Iteration 5                      :        ...5.393453e+01 [+7.00]
+  ReML Iteration 6                      :        ...1.481575e-02 [+7.25]
+  ReML Iteration 1                      :        ...7.341820e+01 [+7.50]
+  ReML Iteration 2                      :        ...3.777035e+01 [+7.75]
+  ReML Iteration 3                      :        ...1.559204e+01 [+8.00]
+  ReML Iteration 4                      :        ...4.717426e-01 [+8.00]
+  ReML Iteration 5                      :        ...2.127165e+00 [+7.00]
+  ReML Iteration 6                      :        ...1.146825e-02 [+7.25]
+  ReML Iteration 1                      :        ...7.332083e+01 [+7.50]
+  ReML Iteration 2                      :        ...3.775986e+01 [+7.75]
+  ReML Iteration 3                      :        ...1.560655e+01 [+8.00]
+  ReML Iteration 4                      :        ...1.265246e-01 [+8.00]
+  ReML Iteration 5                      :        ...4.869098e-01 [+7.00]
+  ReML Iteration 6                      :        ...2.329632e+00 [+6.00]
+  ReML Iteration 7                      :        ...1.131214e-02 [+6.25]
+  ReML Iteration 1                      :        ...7.313004e+01 [+6.50]
+  ReML Iteration 2                      :        ...3.772127e+01 [+6.75]
+  ReML Iteration 3                      :        ...1.549441e+01 [+7.00]
+  ReML Iteration 4                      :        ...1.097992e-03 [+7.25]
+  ReML Iteration 1                      :        ...7.276372e+01 [+7.50]
+  ReML Iteration 2                      :        ...3.758415e+01 [+7.75]
+  ReML Iteration 3                      :        ...1.568030e+01 [+8.00]
+  ReML Iteration 4                      :        ...2.614333e-02 [+8.00]
+  ReML Iteration 1                      :        ...7.208819e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.713636e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.587840e+01 [+8.00]
+  ReML Iteration 4                      :        ...1.017733e-01 [+8.00]
+  ReML Iteration 5                      :        ...1.316298e-03 [+8.00]
+  ReML Iteration 1                      :        ...7.093812e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.588897e+01 [+8.00]
+  ReML Iteration 3                      :        ...4.206111e+01 [+7.00]
+  ReML Iteration 4                      :        ...5.162296e+00 [+7.25]
+  ReML Iteration 5                      :        ...1.257886e-01 [+7.50]
+  ReML Iteration 6                      :        ...8.268086e-04 [+7.75]
+  ReML Iteration 1                      :        ...6.927386e+01 [+8.00]
+  ReML Iteration 2                      :        ...3.321022e+01 [+8.00]
+  ReML Iteration 3                      :        ...1.369928e+01 [+8.00]
+  ReML Iteration 4                      :        ...3.127119e-01 [+8.00]
+  ReML Iteration 5                      :        ...3.121196e-03 [+8.00]
+  ReML Iteration 1                      :        ...6.764498e+01 [+8.00]
+  ReML Iteration 2                      :        ...2.921076e+01 [+8.00]
+  ReML Iteration 3                      :        ...2.634869e+01 [+8.00]
+  ReML Iteration 4                      :        ...7.232078e+00 [+8.00]
+  ReML Iteration 5                      :        ...6.489193e-01 [+8.00]
+  ReML Iteration 6                      :        ...3.238520e-02 [+8.00]
+  ReML Iteration 1                      :        ...6.802334e+01 [+8.00]
+  ReML Iteration 2                      :        ...2.516064e+01 [+8.00]
+  ReML Iteration 3                      :        ...3.130747e+01 [+7.00]
+  ReML Iteration 4                      :        ...1.560930e+01 [+7.25]
+  ReML Iteration 5                      :        ...2.665197e-01 [+7.50]
+  ReML Iteration 6                      :        ...3.999323e-03 [+7.75]
+  ReML Iteration 1                      :        ...7.506139e+01 [+8.00]
+  ReML Iteration 2                      :        ...2.149475e+01 [+8.00]
+  ReML Iteration 3                      :        ...2.610352e+01 [+7.00]
+  ReML Iteration 4                      :        ...2.963584e+01 [+6.00]
+  ReML Iteration 5                      :        ...1.623666e-01 [+6.25]
+  ReML Iteration 6                      :        ...6.956549e-02 [+6.50]
+  ReML Iteration 1                      :        ...9.901982e+01 [+6.75]
+  ReML Iteration 2                      :        ...1.605995e+01 [+7.00]
+  ReML Iteration 3                      :        ...1.537548e+01 [+7.25]
+  ReML Iteration 4                      :        ...1.866555e+01 [+6.25]
+  ReML Iteration 5                      :        ...2.721827e+01 [+5.25]
+  ReML Iteration 6                      :        ...8.500949e+00 [+5.50]
+  ReML Iteration 7                      :        ...3.321314e-01 [+5.75]
+  ReML Iteration 8                      :        ...1.910369e-02 [+6.00]
+  ReML Iteration 1                      :        ...1.628213e+02 [+6.25]
+  ReML Iteration 2                      :        ...8.844413e+00 [+6.50]
+  ReML Iteration 3                      :        ...5.128063e+00 [+6.75]
+  ReML Iteration 4                      :        ...5.649011e+00 [+5.75]
+  ReML Iteration 5                      :        ...8.638110e+00 [+4.75]
+  ReML Iteration 6                      :        ...1.522658e+01 [+3.75]
+  ReML Iteration 7                      :        ...1.590717e+01 [+2.75]
+  ReML Iteration 8                      :        ...1.092792e-01 [+3.00]
+  ReML Iteration 9                      :        ...4.452175e-02 [+3.25]
+  ReML Iteration 1                      :        ...3.143045e+02 [+3.50]
+  ReML Iteration 2                      :        ...3.275670e+01 [+3.75]
+  ReML Iteration 3                      :        ...2.551397e+01 [+4.00]
+  ReML Iteration 4                      :        ...4.168202e+01 [+3.00]
+  ReML Iteration 5                      :        ...3.736014e+01 [+3.25]
+  ReML Iteration 6                      :        ...7.691271e+01 [+2.25]
+  ReML Iteration 7                      :        ...6.992711e+01 [+2.50]
+  ReML Iteration 8                      :        ...1.759643e+02 [+1.50]
+  ReML Iteration 9                      :        ...8.748997e+01 [+1.75]
+  ReML Iteration 10                     :        ...2.447327e-01 [+2.00]
+  ReML Iteration 11                     :        ...5.726242e-01 [+1.00]
+  ReML Iteration 12                     :        ...1.484472e+00 [+0.00]
+  ReML Iteration 13                     :        ...5.341790e-05 [+0.25]
+  ReML Iteration 1                      :        ...4.550478e+02 [+0.50]
+  ReML Iteration 2                      :        ...8.850513e+01 [+0.75]
+  ReML Iteration 3                      :        ...3.699635e+01 [+1.00]
+  ReML Iteration 4                      :        ...3.237586e+01 [+1.25]
+  ReML Iteration 5                      :        ...2.085879e+01 [+1.50]
+  ReML Iteration 6                      :        ...2.688635e+01 [+0.50]
+  ReML Iteration 7                      :        ...1.726707e+01 [+0.75]
+  ReML Iteration 8                      :        ...6.786378e+00 [+1.00]
+  ReML Iteration 9                      :        ...3.220354e+00 [+1.25]
+  ReML Iteration 10                     :        ...2.547233e+00 [+1.50]
+  ReML Iteration 11                     :        ...2.133780e+00 [+1.75]
+  ReML Iteration 12                     :        ...2.440509e+00 [+0.75]
+  ReML Iteration 13                     :        ...2.109662e+00 [+1.00]
+  ReML Iteration 14                     :        ...1.154309e+00 [+1.25]
+  ReML Iteration 15                     :        ...7.875317e-01 [+1.50]
+  ReML Iteration 16                     :        ...7.419825e-01 [+1.75]
+  ReML Iteration 17                     :        ...7.496096e-01 [+0.75]
+  ReML Iteration 18                     :        ...7.382334e-01 [+1.00]
+  ReML Iteration 19                     :        ...3.767403e-01 [+1.25]
+  ReML Iteration 20                     :        ...2.816795e-01 [+1.50]
+  ReML Iteration 21                     :        ...2.488848e-01 [+1.75]
+  ReML Iteration 22                     :        ...2.704174e-01 [+0.75]
+  ReML Iteration 23                     :        ...2.470177e-01 [+1.00]
+  ReML Iteration 24                     :        ...1.320960e-01 [+1.25]
+  ReML Iteration 25                     :        ...9.392037e-02 [+1.50]
+
+SPM12: spm_spm (v7120)                             15:14:24 - 27/02/2019
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:15:22 - 27/02/2019
+Done
+Done    'Model estimation'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-bromo/VOI_FPI_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-bromo/VOI_MFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-bromo/VOI_cMFG_1.mat
+Done    'Volume of Interest'
+Done
+
+Initialising outputdir for  subject 48 and session 33 and now lets run first level analysis 
+Initialising outputdir for  subject 112 and session lacebo and now lets run first level analysis 
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:16:02 - 27/02/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:16:02 - 27/02/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:16:47 - 27/02/2019
+Done    'fMRI model specification'
+Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:16:47 - 27/02/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:16:47 - 27/02/2019
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (712480 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...7.441360e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.756458e+01 [+4.50]
+  ReML Iteration 3                      :        ...5.718832e+00 [+4.75]
+  ReML Iteration 4                      :        ...1.148440e+00 [+5.00]
+  ReML Iteration 5                      :        ...1.651644e+00 [+4.00]
+  ReML Iteration 6                      :        ...5.180943e-01 [+4.25]
+  ReML Iteration 7                      :        ...5.906145e-01 [+3.25]
+  ReML Iteration 8                      :        ...1.913250e-01 [+3.50]
+  ReML Iteration 9                      :        ...2.294441e-01 [+2.50]
+  ReML Iteration 10                     :        ...7.883418e-02 [+2.75]
+  ReML Iteration 1                      :        ...7.366638e+01 [+3.00]
+  ReML Iteration 2                      :        ...3.773938e+01 [+3.25]
+  ReML Iteration 3                      :        ...2.637307e+00 [+3.50]
+  ReML Iteration 4                      :        ...2.661452e+00 [+2.50]
+  ReML Iteration 5                      :        ...1.723039e+00 [+2.75]
+  ReML Iteration 6                      :        ...2.028834e-01 [+3.00]
+  ReML Iteration 7                      :        ...2.656419e-01 [+2.00]
+  ReML Iteration 8                      :        ...9.637078e-02 [+2.25]
+  ReML Iteration 1                      :        ...7.004915e+01 [+2.50]
+  ReML Iteration 2                      :        ...3.893601e+01 [+2.75]
+  ReML Iteration 3                      :        ...2.283774e+00 [+3.00]
+  ReML Iteration 4                      :        ...4.271570e-01 [+3.25]
+  ReML Iteration 5                      :        ...5.573528e-01 [+2.25]
+  ReML Iteration 6                      :        ...2.025237e-01 [+2.50]
+  ReML Iteration 7                      :        ...2.571198e-01 [+1.50]
+  ReML Iteration 8                      :        ...9.363585e-02 [+1.75]
+  ReML Iteration 1                      :        ...6.168278e+01 [+2.00]
+  ReML Iteration 2                      :        ...3.942742e+01 [+2.25]
+  ReML Iteration 3                      :        ...6.622038e-01 [+2.50]
+  ReML Iteration 4                      :        ...6.181990e-01 [+2.75]
+  ReML Iteration 5                      :        ...4.669343e-01 [+3.00]
+  ReML Iteration 6                      :        ...3.660820e-01 [+3.25]
+  ReML Iteration 7                      :        ...3.925876e-01 [+2.25]
+  ReML Iteration 8                      :        ...1.374969e-01 [+2.50]
+  ReML Iteration 9                      :        ...1.735284e-01 [+1.50]
+  ReML Iteration 10                     :        ...6.311675e-02 [+1.75]
+  ReML Iteration 1                      :        ...6.168162e+01 [+2.00]
+  ReML Iteration 2                      :        ...3.942229e+01 [+2.25]
+  ReML Iteration 3                      :        ...6.762371e-01 [+2.50]
+  ReML Iteration 4                      :        ...6.465381e-01 [+2.75]
+  ReML Iteration 5                      :        ...5.023379e-01 [+3.00]
+  ReML Iteration 6                      :        ...3.809857e-01 [+3.25]
+  ReML Iteration 7                      :        ...3.936456e-01 [+2.25]
+  ReML Iteration 8                      :        ...1.366788e-01 [+2.50]
+  ReML Iteration 9                      :        ...1.722207e-01 [+1.50]
+  ReML Iteration 10                     :        ...6.261621e-02 [+1.75]
+  ReML Iteration 1                      :        ...6.167929e+01 [+2.00]
+  ReML Iteration 2                      :        ...3.941203e+01 [+2.25]
+  ReML Iteration 3                      :        ...7.027988e-01 [+2.50]
+  ReML Iteration 4                      :        ...7.016644e-01 [+2.75]
+  ReML Iteration 5                      :        ...5.820314e-01 [+3.00]
+  ReML Iteration 6                      :        ...4.258594e-01 [+3.25]
+  ReML Iteration 7                      :        ...3.997350e-01 [+3.50]
+  ReML Iteration 8                      :        ...4.633657e-01 [+2.50]
+  ReML Iteration 9                      :        ...1.634668e-01 [+2.75]
+  ReML Iteration 10                     :        ...2.058253e-01 [+1.75]
+  ReML Iteration 11                     :        ...7.455005e-02 [+2.00]
+  ReML Iteration 1                      :        ...6.643458e+01 [+2.25]
+  ReML Iteration 2                      :        ...3.944573e+01 [+2.50]
+  ReML Iteration 3                      :        ...1.566353e+00 [+2.75]
+  ReML Iteration 4                      :        ...1.955028e+00 [+1.75]
+  ReML Iteration 5                      :        ...1.149000e-01 [+2.00]
+  ReML Iteration 6                      :        ...1.520399e-01 [+1.00]
+  ReML Iteration 7                      :        ...5.612690e-02 [+1.25]
+  ReML Iteration 1                      :        ...5.003661e+01 [+1.50]
+  ReML Iteration 2                      :        ...3.656731e+01 [+1.75]
+  ReML Iteration 3                      :        ...4.491930e+00 [+2.00]
+  ReML Iteration 4                      :        ...3.538880e-01 [+2.25]
+  ReML Iteration 5                      :        ...5.814410e-01 [+1.25]
+  ReML Iteration 6                      :        ...1.078977e-01 [+1.50]
+  ReML Iteration 7                      :        ...4.501449e-04 [+1.75]
+  ReML Iteration 1                      :        ...6.164703e+01 [+2.00]
+  ReML Iteration 2                      :        ...3.926898e+01 [+2.25]
+  ReML Iteration 3                      :        ...1.024981e+00 [+2.50]
+  ReML Iteration 4                      :        ...1.354082e+00 [+1.50]
+  ReML Iteration 5                      :        ...1.553182e+00 [+0.50]
+  ReML Iteration 6                      :        ...2.831823e-02 [+0.75]
+  ReML Iteration 1                      :        ...3.826098e+01 [+1.00]
+  ReML Iteration 2                      :        ...3.029219e+01 [+1.25]
+  ReML Iteration 3                      :        ...3.441406e+01 [+0.25]
+  ReML Iteration 4                      :        ...4.474725e-01 [+0.50]
+  ReML Iteration 5                      :        ...1.385727e+00 [-0.50]
+  ReML Iteration 6                      :        ...3.962842e-03 [-0.25]
+  ReML Iteration 1                      :        ...2.078610e+01 [+0.00]
+  ReML Iteration 2                      :        ...1.532031e+01 [+0.25]
+  ReML Iteration 3                      :        ...2.108933e+01 [-0.75]
+  ReML Iteration 4                      :        ...2.135424e+01 [-1.75]
+  ReML Iteration 5                      :        ...2.163593e+01 [-2.75]
+  ReML Iteration 6                      :        ...3.998218e+00 [-2.50]
+  ReML Iteration 7                      :        ...3.536195e-01 [-2.25]
+  ReML Iteration 8                      :        ...7.480891e-04 [-2.00]
+  ReML Iteration 1                      :        ...5.479185e+00 [-1.75]
+  ReML Iteration 2                      :        ...3.085621e+00 [-1.50]
+  ReML Iteration 3                      :        ...3.468901e+00 [-2.50]
+  ReML Iteration 4                      :        ...1.413140e+00 [-2.25]
+  ReML Iteration 5                      :        ...1.844518e+00 [-3.25]
+  ReML Iteration 6                      :        ...7.181519e-01 [-3.00]
+  ReML Iteration 7                      :        ...9.283654e-01 [-4.00]
+  ReML Iteration 8                      :        ...3.509421e-01 [-3.75]
+  ReML Iteration 9                      :        ...4.520619e-01 [-4.75]
+  ReML Iteration 10                     :        ...1.684832e-01 [-4.50]
+  ReML Iteration 11                     :        ...2.166688e-01 [-5.50]
+  ReML Iteration 12                     :        ...8.020338e-02 [-5.25]
+
+SPM12: spm_spm (v7120)                             15:17:26 - 27/02/2019
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:18:29 - 27/02/2019
+Done
+Done    'Model estimation'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-placebo/VOI_FPI_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-placebo/VOI_MFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-placebo/VOI_cMFG_1.mat
+Done    'Volume of Interest'
+Done
+
+Initialising outputdir for  subject 48 and session 33 and now lets run first level analysis 
+Initialising outputdir for  subject 116 and session olcapone and now lets run first level analysis 
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:18:37 - 27/02/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:18:38 - 27/02/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:19:57 - 27/02/2019
+Done    'fMRI model specification'
+Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:19:58 - 27/02/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:19:59 - 27/02/2019
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (700737 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...7.803338e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.676342e+01 [+4.50]
+  ReML Iteration 3                      :        ...3.395342e+00 [+4.75]
+  ReML Iteration 4                      :        ...1.244679e+00 [+5.00]
+  ReML Iteration 5                      :        ...1.428156e+00 [+4.00]
+  ReML Iteration 6                      :        ...4.726284e-01 [+4.25]
+  ReML Iteration 7                      :        ...5.672296e-01 [+3.25]
+  ReML Iteration 8                      :        ...1.962364e-01 [+3.50]
+  ReML Iteration 9                      :        ...2.432476e-01 [+2.50]
+  ReML Iteration 10                     :        ...8.668730e-02 [+2.75]
+  ReML Iteration 1                      :        ...7.725079e+01 [+3.00]
+  ReML Iteration 2                      :        ...3.710515e+01 [+3.25]
+  ReML Iteration 3                      :        ...2.357329e+00 [+3.50]
+  ReML Iteration 4                      :        ...2.438331e+00 [+2.50]
+  ReML Iteration 5                      :        ...8.265637e-01 [+2.75]
+  ReML Iteration 6                      :        ...1.110739e+00 [+1.75]
+  ReML Iteration 7                      :        ...2.107902e+00 [+0.75]
+  ReML Iteration 8                      :        ...1.526026e-02 [+1.00]
+  ReML Iteration 1                      :        ...4.618462e+01 [+1.25]
+  ReML Iteration 2                      :        ...3.463950e+01 [+1.50]
+  ReML Iteration 3                      :        ...3.004533e+01 [+1.75]
+  ReML Iteration 4                      :        ...2.297071e-01 [+2.00]
+  ReML Iteration 5                      :        ...2.956060e-01 [+1.00]
+  ReML Iteration 6                      :        ...2.058036e-01 [+1.25]
+  ReML Iteration 7                      :        ...8.608946e-02 [+1.50]
+  ReML Iteration 1                      :        ...5.882625e+01 [+1.75]
+  ReML Iteration 2                      :        ...3.900894e+01 [+2.00]
+  ReML Iteration 3                      :        ...5.853361e-01 [+2.25]
+  ReML Iteration 4                      :        ...7.117138e-01 [+1.25]
+  ReML Iteration 5                      :        ...2.574148e-01 [+1.50]
+  ReML Iteration 6                      :        ...3.453165e-01 [+0.50]
+  ReML Iteration 7                      :        ...2.259060e-01 [+0.75]
+  ReML Iteration 8                      :        ...5.146550e-01 [-0.25]
+  ReML Iteration 9                      :        ...1.168646e+00 [-1.25]
+  ReML Iteration 10                     :        ...2.129257e-03 [-1.00]
+  ReML Iteration 1                      :        ...1.315845e+01 [-0.75]
+  ReML Iteration 2                      :        ...7.404410e+00 [-0.50]
+  ReML Iteration 3                      :        ...1.043977e+01 [-1.50]
+  ReML Iteration 4                      :        ...6.011878e+00 [-1.25]
+  ReML Iteration 5                      :        ...7.722565e+00 [-2.25]
+  ReML Iteration 6                      :        ...3.957801e+00 [-2.00]
+  ReML Iteration 7                      :        ...5.272836e+00 [-3.00]
+  ReML Iteration 8                      :        ...2.488512e+00 [-2.75]
+  ReML Iteration 9                      :        ...3.328069e+00 [-3.75]
+  ReML Iteration 10                     :        ...1.450208e+00 [-3.50]
+  ReML Iteration 11                     :        ...1.920103e+00 [-4.50]
+  ReML Iteration 12                     :        ...7.817003e-01 [-4.25]
+  ReML Iteration 13                     :        ...1.022630e+00 [-5.25]
+  ReML Iteration 14                     :        ...3.973837e-01 [-5.00]
+  ReML Iteration 15                     :        ...5.153995e-01 [-6.00]
+  ReML Iteration 16                     :        ...1.949413e-01 [-5.75]
+  ReML Iteration 17                     :        ...2.515787e-01 [-6.75]
+  ReML Iteration 18                     :        ...9.381583e-02 [-6.50]
+
+SPM12: spm_spm (v7120)                             15:20:41 - 27/02/2019
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:21:42 - 27/02/2019
+Done
+Done    'Model estimation'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-tolcapone/VOI_FPI_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-tolcapone/VOI_MFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-033/session-tolcapone/VOI_cMFG_1.mat
+Done    'Volume of Interest'
+Done
+

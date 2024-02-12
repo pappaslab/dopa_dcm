@@ -1,0 +1,9 @@
+-o /home/despoC/dvogel/fMRI_script_Despolab/DCM_scripts/SGE_scripts/spDCM/spDCM_first_Level_PEB_of_PEBs/logs/
+-e /home/despoC/dvogel/fMRI_script_Despolab/DCM_scripts/SGE_scripts/spDCM/spDCM_first_Level_PEB_of_PEBs/logs/
+-j yes
+-m as
+-l mem_free=1.67G
+-pe threaded 6
+-binding linear:6
+-l h="nx2|nx12|nx28|nx29"
+-wd /home/despoC/dvogel/fMRI_script_Despolab/DCM_scripts/SGE_scripts/spDCM/spDCM_first_Level_PEB_of_PEBs/logs/

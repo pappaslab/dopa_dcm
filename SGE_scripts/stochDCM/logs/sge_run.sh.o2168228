@@ -1,0 +1,72 @@
+subject is for this stochDCM first level is 003
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+lenmod =
+
+    18
+
+
+Inverting parent model... 
+LAP: 1 (1)        F0:-8.1553e+04    dF:0.00e+00   (1.55e+02 sec)  
+LAP: 2 (1)      F-F0:-7.9595e+03    dF:-7.96e+03  (1.58e+02 sec)  
+LAP: 3 (1)      F-F0:-1.7456e+04    dF:-9.50e+03  (1.58e+02 sec)  
+LAP: 4 (1)      F-F0:-2.1537e+04    dF:-4.08e+03  (1.94e+02 sec)  
+LAP: 5 (1)      F-F0:-2.1108e+04    dF:4.29e+02   (1.88e+02 sec)  
+LAP: 6 (1)      F-F0:-2.0438e+04    dF:6.70e+02   (1.76e+02 sec)  
+LAP: 7 (1)      F-F0:-2.0249e+04    dF:1.89e+02   (1.52e+02 sec)  
+LAP: 8 (1)      F-F0:-2.0249e+04    dF:0.00e+00   (1.70e+02 sec)  
+LAP: 9 (1)      F-F0:-1.9869e+04    dF:3.79e+02   (1.72e+02 sec)  
+LAP: 10 (1)     F-F0:-1.9869e+04    dF:0.00e+00   (1.48e+02 sec)  
+LAP: 11 (1)     F-F0:-1.8624e+04    dF:1.25e+03   (1.57e+02 sec)  
+LAP: 12 (1)     F-F0:-1.8624e+04    dF:0.00e+00   (1.54e+02 sec)  
+LAP: 13 (1)     F-F0:-1.8573e+04    dF:5.08e+01   (1.79e+02 sec)  
+LAP: 14 (1)     F-F0:-1.8573e+04    dF:0.00e+00   (1.79e+02 sec)  
+LAP: 15 (1)     F-F0:-1.8555e+04    dF:1.86e+01   (1.56e+02 sec)  
+LAP: 16 (1)     F-F0:-1.8555e+04    dF:0.00e+00   (1.78e+02 sec)  
+LAP: 17 (1)     F-F0:-1.8547e+04    dF:7.97e+00   (1.65e+02 sec)  
+LAP: Converged     F:-1.0010e+05
+
+Inverting nested models using BMR... 
+ 
+18 models in Occams window:
+	Model 1, p(m|Y)=0.39
+	Model 2, p(m|Y)=0.00
+	Model 3, p(m|Y)=0.11
+	Model 4, p(m|Y)=0.00
+	Model 5, p(m|Y)=0.00
+	Model 6, p(m|Y)=0.00
+	Model 7, p(m|Y)=0.39
+	Model 8, p(m|Y)=0.00
+	Model 9, p(m|Y)=0.11
+	Model 10, p(m|Y)=0.00
+	Model 11, p(m|Y)=0.00
+	Model 12, p(m|Y)=0.00
+	Model 13, p(m|Y)=0.00
+	Model 14, p(m|Y)=0.00
+	Model 15, p(m|Y)=0.00
+	Model 16, p(m|Y)=0.00
+	Model 17, p(m|Y)=0.00
+	Model 18, p(m|Y)=0.00
+Averaging models in Occams window...
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+		 Finished first level DCM models 

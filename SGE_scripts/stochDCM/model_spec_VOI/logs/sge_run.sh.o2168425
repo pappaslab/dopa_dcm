@@ -1,0 +1,164 @@
+subject is for this stochDCM first level is 031
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+Initialising outputdir for  subject 031 and session bromo and now lets run first level analysis 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Initialising outputdir for  subject 031 and session placebo and now lets run first level analysis 
+[Warning: Directory already exists.] 
+[> In stochDCM_first_Level_model_spec_dav_SGE (line 53)] 
+Initialising outputdir for  subject 031 and session tolcapone and now lets run first level analysis 
+[Warning: Directory already exists.] 
+[> In stochDCM_first_Level_model_spec_dav_SGE (line 53)] 
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     16:32:09 - 27/02/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     16:32:10 - 27/02/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          16:34:09 - 27/02/2019
+Done    'fMRI model specification'
+Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             16:34:10 - 27/02/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              16:34:12 - 27/02/2019
+========================================================================
+Chunk   1/8                             :                  ...processing                       ...doneChunk   2/8                             :                  ...processing                       ...doneChunk   3/8                             :                  ...processing                       ...doneChunk   4/8                             :                  ...processing                       ...doneChunk   5/8                             :                  ...processing                       ...doneChunk   6/8                             :                  ...processing                       ...doneChunk   7/8                             :                  ...processing                       ...doneChunk   8/8                             :                  ...processing                       ...done
+Temporal non-sphericity (714660 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...2.381602e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.077596e+02 [+4.50]
+  ReML Iteration 3                      :        ...1.641746e+01 [+4.75]
+  ReML Iteration 4                      :        ...2.485899e+01 [+3.75]
+  ReML Iteration 5                      :        ...5.773912e+01 [+2.75]
+  ReML Iteration 6                      :        ...2.786352e+00 [+3.00]
+  ReML Iteration 7                      :        ...7.070977e-01 [+3.25]
+  ReML Iteration 8                      :        ...2.988964e+00 [+2.25]
+  ReML Iteration 9                      :        ...8.781087e+01 [+1.25]
+  ReML Iteration 10                     :        ...7.986342e+01 [+1.50]
+  ReML Iteration 11                     :        ...9.009534e+01 [+0.50]
+  ReML Iteration 12                     :        ...1.477258e+02 [-0.50]
+  ReML Iteration 13                     :        ...2.538848e+02 [-1.50]
+  ReML Iteration 14                     :        ...2.935897e+02 [-2.50]
+  ReML Iteration 15                     :        ...2.652022e+03 [-3.50]
+  ReML Iteration 16                     :        ...3.265564e+01 [-3.25]
+  ReML Iteration 17                     :        ...2.032579e+00 [-3.00]
+  ReML Iteration 18                     :        ...3.467535e-03 [-2.75]
+  ReML Iteration 1                      :        ...9.240430e+00 [-2.50]
+  ReML Iteration 2                      :        ...6.725741e+00 [-2.25]
+  ReML Iteration 3                      :        ...6.031753e+00 [-2.00]
+  ReML Iteration 4                      :        ...6.760560e+00 [-3.00]
+  ReML Iteration 5                      :        ...2.542326e+00 [-2.75]
+  ReML Iteration 6                      :        ...3.308378e+00 [-3.75]
+  ReML Iteration 7                      :        ...1.258485e+00 [-3.50]
+  ReML Iteration 8                      :        ...1.626831e+00 [-4.50]
+  ReML Iteration 9                      :        ...6.084862e-01 [-4.25]
+  ReML Iteration 10                     :        ...7.837382e-01 [-5.25]
+  ReML Iteration 11                     :        ...2.906104e-01 [-5.00]
+  ReML Iteration 12                     :        ...3.736906e-01 [-6.00]
+  ReML Iteration 13                     :        ...1.379892e-01 [-5.75]
+  ReML Iteration 14                     :        ...1.773018e-01 [-6.75]
+  ReML Iteration 15                     :        ...6.534141e-02 [-6.50]
+
+SPM12: spm_spm (v7120)                             16:36:14 - 27/02/2019
+========================================================================
+Chunk   1/8                             :                  ...processing                       ...doneChunk   2/8                             :                  ...processing                       ...doneChunk   3/8                             :                  ...processing                       ...doneChunk   4/8                             :                  ...processing                       ...doneChunk   5/8                             :                  ...processing                       ...doneChunk   6/8                             :                  ...processing                       ...doneChunk   7/8                             :                  ...processing                       ...doneChunk   8/8                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          16:37:42 - 27/02/2019
+Done
+Done    'Model estimation'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-031/VOI_FPI_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-031/VOI_MFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-031/VOI_cMFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-031/VOI_SFS_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-031/VOI_IFS_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-031/VOI_IFJ_1.mat
+Done    'Volume of Interest'
+Done
+

@@ -1,0 +1,185 @@
+subject is for this stochDCM first level is 051
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+Initialising outputdir for  subject 051 and session bromo and now lets run first level analysis 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Initialising outputdir for  subject 051 and session placebo and now lets run first level analysis 
+[Warning: Directory already exists.] 
+[> In stochDCM_first_Level_model_spec_dav_SGE (line 53)] 
+Initialising outputdir for  subject 051 and session tolcapone and now lets run first level analysis 
+[Warning: Directory already exists.] 
+[> In stochDCM_first_Level_model_spec_dav_SGE (line 53)] 
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     16:45:06 - 27/02/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     16:45:07 - 27/02/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          16:46:54 - 27/02/2019
+Done    'fMRI model specification'
+Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             16:46:56 - 27/02/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              16:46:59 - 27/02/2019
+========================================================================
+Chunk   1/8                             :                  ...processing                       ...doneChunk   2/8                             :                  ...processing                       ...doneChunk   3/8                             :                  ...processing                       ...doneChunk   4/8                             :                  ...processing                       ...doneChunk   5/8                             :                  ...processing                       ...doneChunk   6/8                             :                  ...processing                       ...doneChunk   7/8                             :                  ...processing                       ...doneChunk   8/8                             :                  ...processing                       ...done
+Temporal non-sphericity (752848 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...2.466214e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.052257e+02 [+4.50]
+  ReML Iteration 3                      :        ...3.161249e+02 [+3.50]
+  ReML Iteration 4                      :        ...5.203507e+00 [+3.75]
+  ReML Iteration 5                      :        ...3.807788e+01 [+2.75]
+  ReML Iteration 6                      :        ...1.728778e+00 [+3.00]
+  ReML Iteration 7                      :        ...8.442825e+00 [+2.00]
+  ReML Iteration 8                      :        ...6.570452e+01 [+1.00]
+  ReML Iteration 9                      :        ...2.222476e+01 [+1.25]
+  ReML Iteration 10                     :        ...3.170714e+01 [+0.25]
+  ReML Iteration 11                     :        ...8.475803e+00 [+0.50]
+  ReML Iteration 12                     :        ...7.680085e+00 [+0.75]
+  ReML Iteration 13                     :        ...7.339252e+01 [-0.25]
+  ReML Iteration 14                     :        ...2.241047e+02 [-1.25]
+  ReML Iteration 15                     :        ...9.358116e+03 [-2.25]
+  ReML Iteration 16                     :        ...7.670143e+01 [-2.00]
+  ReML Iteration 17                     :        ...6.272831e+01 [-1.75]
+  ReML Iteration 18                     :        ...5.075538e+01 [-1.50]
+  ReML Iteration 19                     :        ...1.251159e+02 [-2.50]
+  ReML Iteration 20                     :        ...6.356175e+01 [-2.25]
+  ReML Iteration 21                     :        ...3.594125e+02 [-3.25]
+  ReML Iteration 22                     :        ...4.917354e+03 [-4.25]
+  ReML Iteration 23                     :        ...4.713831e+00 [-4.00]
+  ReML Iteration 24                     :        ...7.454187e+00 [-5.00]
+  ReML Iteration 25                     :        ...2.743570e+02 [-6.00]
+  ReML Iteration 26                     :        ...7.976686e-04 [-5.75]
+
+SPM12: spm_spm (v7120)                             16:49:47 - 27/02/2019
+========================================================================
+Chunk   1/8                             :                  ...processing                       ...doneChunk   2/8                             :                  ...processing                       ...doneChunk   3/8                             :                  ...processing                       ...doneChunk   4/8                             :                  ...processing                       ...doneChunk   5/8                             :                  ...processing                       ...doneChunk   6/8                             :                  ...processing                       ...doneChunk   7/8                             :                  ...processing                       ...doneChunk   8/8                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          16:53:20 - 27/02/2019
+Done
+Done    'Model estimation'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-051/VOI_FPI_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-051/VOI_MFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-051/VOI_cMFG_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-051/VOI_SFS_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-051/VOI_IFS_1.mat
+Done    'Volume of Interest'
+Done
+
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/stochDCM/sub-051/VOI_IFJ_1.mat
+Done    'Volume of Interest'
+Done
+
+com.mathworks.util.ShutdownRuntimeException: Java is shutting down
+	at com.mathworks.services.settings.Setting.nativeExists(Native Method)
+	at com.mathworks.services.settings.SettingPath.<init>(SettingPath.java:271)
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder.setStringSettingValue(InitialWorkingFolder.java:48)
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder.access$000(InitialWorkingFolder.java:15)
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder$1.actionPerformed(InitialWorkingFolder.java:34)
+	at com.mathworks.jmi.MatlabPath$DeferredActionEvent.dispatch(MatlabPath.java:151)
+	at com.mathworks.util.QueueEvent$QueueTarget.processEvent(QueueEvent.java:89)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)

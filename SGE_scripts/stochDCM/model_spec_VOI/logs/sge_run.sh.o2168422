@@ -1,0 +1,40 @@
+subject is for this stochDCM first level is 027
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+Initialising outputdir for  subject 027 and session bromo and now lets run first level analysis 
+{Error using checkfilename>validateFilename (line 165)
+Function GUNZIP was unable to find file
+''/home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/preproc_fmriprep_afni/sub-027/ses-bromo/fmriprep_afni-sub-48
+50  55-bromo.nii.gz''.
+
+Error in checkfilename (line 49)
+[fullfilename, fid] = validateFilename( ...
+
+Error in gunzip>checkFilesURLInput (line 118)
+   [fullFileName, url] = checkfilename(inputFiles{1}, validExtensions, fcnName,
+   ...
+
+Error in gunzip (line 61)
+[files, url, urlFilename] = checkFilesURLInput(files,
+{'gz'},'FILES',mfilename);
+
+Error in stochDCM_first_Level_model_spec_dav_SGE (line 71)
+                gunzip(preproc_file_gzip);
+} 

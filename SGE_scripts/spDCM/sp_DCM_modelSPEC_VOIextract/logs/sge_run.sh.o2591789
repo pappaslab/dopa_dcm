@@ -1,0 +1,61 @@
+subject for this spDCM first level VOI extract is 030
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+DSST =
+
+     1
+
+Initialising outputdir for  subject 48 and session 30 and now lets run first level analysis 
+Initialising outputdir for  subject 98 and session romo and now lets run first level analysis 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+25-Jun-2019 14:51:48 - Running job #1
+------------------------------------------------------------------------
+25-Jun-2019 14:51:48 - Running 'fMRI model specification'
+25-Jun-2019 14:51:50 - Failed  'fMRI model specification'
+Error using read_hdr (line 36)
+Error reading header file "".
+In file "/usr/local/matlab-tools/spm/spm12/@nifti/private/read_hdr.m" (v7370), function "read_hdr" at line 36.
+In file "/usr/local/matlab-tools/spm/spm12/@nifti/nifti.m" (v7147), function "nifti" at line 26.
+In file "/usr/local/matlab-tools/spm/spm12/spm_select.m" (v6530), function "spm_select_get_nbframes" at line 268.
+In file "/usr/local/matlab-tools/spm/spm12/spm_select.m" (v6530), function "spm_select_expand" at line 254.
+In file "/usr/local/matlab-tools/spm/spm12/spm_select.m" (v6530), function "spm_select" at line 130.
+In file "/sw/local/matlab-tools/spm/spm12/config/spm_run_fmri_spec.m" (v6562), function "spm_run_fmri_spec" at line 125.
+
+No executable modules, but still unresolved dependencies or incomplete module inputs.
+The following modules did not run:
+Failed: fMRI model specification
+Skipped: Model estimation
+
+{Error using MATLABbatch system
+Job execution failed. The full log of this run can be found in MATLAB command
+window, starting with the lines (look for the line showing the exact #job as
+displayed in this error message)
+------------------
+Running job #1
+------------------
+
+} 

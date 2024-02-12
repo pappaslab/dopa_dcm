@@ -1,0 +1,69 @@
+subject is for this stochDCM first level is 026
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+Inverting parent model... 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+EM:(+): 1     F: 0.000e+00 dF predicted: 2.966e+01  actual: 4.879e+01 (1.19 sec)
+EM:(+): 2     F: 4.879e+01 dF predicted: 4.138e+01  actual: 4.249e+01 (1.31 sec)
+EM:(+): 3     F: 9.128e+01 dF predicted: 6.169e+01  actual: 5.899e+01 (1.44 sec)
+EM:(+): 4     F: 1.503e+02 dF predicted: 8.284e+01  actual: 7.594e+01 (1.44 sec)
+EM:(+): 5     F: 2.262e+02 dF predicted: 9.950e+01  actual: 9.377e+01 (1.35 sec)
+EM:(+): 6     F: 3.200e+02 dF predicted: 1.340e+02  actual: 1.298e+02 (1.23 sec)
+EM:(+): 7     F: 4.498e+02 dF predicted: 1.919e+02  actual: 2.024e+02 (1.25 sec)
+EM:(+): 8     F: 6.522e+02 dF predicted: 3.189e+02  actual: 3.675e+02 (1.40 sec)
+EM:(+): 9     F: 1.020e+03 dF predicted: 4.003e+02  actual: 4.048e+02 (1.48 sec)
+EM:(+): 10     F: 1.425e+03 dF predicted: 2.881e+02  actual: 2.692e+02 (1.47 sec)
+EM:(+): 11     F: 1.694e+03 dF predicted: 1.518e+02  actual: 1.338e+02 (1.39 sec)
+EM:(+): 12     F: 1.827e+03 dF predicted: 1.107e+02  actual: 9.499e+01 (1.27 sec)
+EM:(+): 13     F: 1.922e+03 dF predicted: 7.466e+01  actual: 6.347e+01 (1.31 sec)
+EM:(+): 14     F: 1.986e+03 dF predicted: 5.060e+01  actual: 4.780e+01 (1.19 sec)
+EM:(+): 15     F: 2.034e+03 dF predicted: 4.778e+01  actual: 4.486e+01 (1.08 sec)
+EM:(+): 16     F: 2.079e+03 dF predicted: 3.671e+01  actual: 3.076e+01 (0.98 sec)
+EM:(+): 17     F: 2.109e+03 dF predicted: 1.855e+01  actual: 1.466e+01 (0.88 sec)
+EM:(+): 18     F: 2.124e+03 dF predicted: 7.722e+00  actual: 6.083e+00 (0.69 sec)
+EM:(+): 19     F: 2.130e+03 dF predicted: 3.270e+00  actual: 2.614e+00 (0.88 sec)
+EM:(+): 20     F: 2.133e+03 dF predicted: 1.529e+00  actual: 1.253e+00 (0.92 sec)
+EM:(+): 21     F: 2.134e+03 dF predicted: 8.216e-01  actual: 6.799e-01 (1.01 sec)
+EM:(+): 22     F: 2.135e+03 dF predicted: 5.175e-01  actual: 4.457e-01 (0.74 sec)
+EM:(+): 23     F: 2.135e+03 dF predicted: 3.778e-01  actual: 3.203e-01 (0.77 sec)
+EM:(+): 24     F: 2.135e+03 dF predicted: 3.019e-01  actual: 2.662e-01 (0.74 sec)
+EM:(+): 25     F: 2.136e+03 dF predicted: 2.563e-01  actual: 2.163e-01 (0.70 sec)
+EM:(+): 26     F: 2.136e+03 dF predicted: 2.207e-01  actual: 1.938e-01 (0.68 sec)
+EM:(+): 27     F: 2.136e+03 dF predicted: 1.941e-01  actual: 1.604e-01 (0.67 sec)
+EM:(+): 28     F: 2.136e+03 dF predicted: 1.689e-01  actual: 1.461e-01 (0.69 sec)
+EM:(+): 29     F: 2.136e+03 dF predicted: 1.490e-01  actual: 1.193e-01 (0.68 sec)
+EM:(+): 30     F: 2.137e+03 dF predicted: 1.289e-01  actual: 1.093e-01 (0.67 sec)
+EM:(+): 31     F: 2.137e+03 dF predicted: 1.133e-01  actual: 8.706e-02 (0.75 sec)
+EM:(+): 32     F: 2.137e+03 dF predicted: 9.704e-02  actual: 8.030e-02 (0.72 sec)
+EM:(+): 33     F: 2.137e+03 dF predicted: 8.479e-02  actual: 6.171e-02 (0.69 sec)
+EM:(+): 34     F: 2.137e+03 dF predicted: 7.180e-02  actual: 5.774e-02 (0.68 sec)
+EM:(+): 35     F: 2.137e+03 dF predicted: 6.244e-02  convergence
+
+Inverting nested models using BMR... 
+0 out of 21 free parameters removed 
+ 
+2 models in Occams window:
+	Model 1, p(m|Y)=0.34
+	Model 2, p(m|Y)=0.66
+Averaging models in Occams window...
+		 Finished first level DCM models 

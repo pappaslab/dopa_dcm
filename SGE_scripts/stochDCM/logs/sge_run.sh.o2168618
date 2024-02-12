@@ -1,0 +1,59 @@
+subject is for this stochDCM first level is 071
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+lenmod =
+
+    15
+
+
+Inverting parent model... 
+LAP: 1 (1)        F0:-4.4402e+04    dF:0.00e+00   (2.38e+02 sec)  
+LAP: 2 (1)      F-F0:3.8137e+01     dF:3.81e+01   (2.10e+02 sec)  
+LAP: 3 (1)      F-F0:-2.2488e+02    dF:-2.63e+02  (2.03e+02 sec)  
+LAP: 4 (1)      F-F0:-1.1862e+03    dF:-9.61e+02  (2.19e+02 sec)  
+LAP: 5 (1)      F-F0:-1.1862e+03    dF:0.00e+00   (2.10e+02 sec)  
+LAP: 6 (1)      F-F0:-1.1862e+03    dF:0.00e+00   (2.30e+02 sec)  
+LAP: 7 (1)      F-F0:-1.1862e+03    dF:0.00e+00   (2.09e+02 sec)  
+LAP: Converged     F:-4.5588e+04
+
+Inverting nested models using BMR... 
+ 
+15 models in Occams window:
+	Model 1, p(m|Y)=0.50
+	Model 2, p(m|Y)=0.00
+	Model 3, p(m|Y)=0.00
+	Model 4, p(m|Y)=0.00
+	Model 5, p(m|Y)=0.00
+	Model 6, p(m|Y)=0.50
+	Model 7, p(m|Y)=0.00
+	Model 8, p(m|Y)=0.00
+	Model 9, p(m|Y)=0.00
+	Model 10, p(m|Y)=0.00
+	Model 11, p(m|Y)=0.00
+	Model 12, p(m|Y)=0.00
+	Model 13, p(m|Y)=0.00
+	Model 14, p(m|Y)=0.00
+	Model 15, p(m|Y)=0.00
+Averaging models in Occams window...
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+		 Finished first level DCM models 

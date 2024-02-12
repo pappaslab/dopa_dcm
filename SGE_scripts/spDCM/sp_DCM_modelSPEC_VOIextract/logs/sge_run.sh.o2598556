@@ -1,0 +1,346 @@
+subject for this spDCM first level VOI extract is 056
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+DSST =
+
+     1
+
+Initialising outputdir for  subject 48 and session 56 and now lets run first level analysis 
+Initialising outputdir for  subject 98 and session romo and now lets run first level analysis 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:43:53 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:43:53 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:43:54 - 01/07/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:43:55 - 01/07/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:46:25 - 01/07/2019
+01-Jul-2019 14:46:25 - Done    'fMRI model specification'
+01-Jul-2019 14:46:25 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:46:26 - 01/07/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:46:33 - 01/07/2019
+========================================================================
+Chunk   1/5                             :                  ...processing                       ...doneChunk   2/5                             :                  ...processing                       ...doneChunk   3/5                             :                  ...processing                       ...doneChunk   4/5                             :                  ...processing                       ...doneChunk   5/5                             :                  ...processing
+Temporal non-sphericity (98332 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...8.608697e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.230041e+06 [+3.25]
+  ReML Iteration 3                      :        ...3.242238e+01 [+3.50]
+  ReML Iteration 4                      :        ...6.297001e-01 [+3.75]
+  ReML Iteration 5                      :        ...1.164493e-03 [+4.00]
+
+SPM12: spm_spm (v7120)                             14:48:23 - 01/07/2019
+========================================================================
+Chunk   1/5                             :                  ...processing                       ...doneChunk   2/5                             :                  ...processing                       ...doneChunk   3/5                             :                  ...processing                       ...doneChunk   4/5                             :                  ...processing                       ...doneChunk   5/5                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:49:30 - 01/07/2019
+Done
+01-Jul-2019 14:49:30 - Done    'Model estimation'
+01-Jul-2019 14:49:30 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:32 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:32 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-bromo/VOI_FPI_1.mat
+01-Jul-2019 14:49:34 - Done    'Volume of Interest'
+01-Jul-2019 14:49:34 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:35 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:36 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-bromo/VOI_MFG_1.mat
+01-Jul-2019 14:49:37 - Done    'Volume of Interest'
+01-Jul-2019 14:49:37 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:39 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:39 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-bromo/VOI_cMFG_1.mat
+01-Jul-2019 14:49:40 - Done    'Volume of Interest'
+01-Jul-2019 14:49:40 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:42 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:42 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-bromo/VOI_SFS_1.mat
+01-Jul-2019 14:49:43 - Done    'Volume of Interest'
+01-Jul-2019 14:49:43 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:45 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:45 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-bromo/VOI_IFS_1.mat
+01-Jul-2019 14:49:46 - Done    'Volume of Interest'
+01-Jul-2019 14:49:46 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:48 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:48 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-bromo/VOI_IFJ_1.mat
+01-Jul-2019 14:49:50 - Done    'Volume of Interest'
+01-Jul-2019 14:49:50 - Done
+
+Initialising outputdir for  subject 48 and session 56 and now lets run first level analysis 
+Initialising outputdir for  subject 112 and session lacebo and now lets run first level analysis 
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:49:52 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:49:52 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:49:52 - 01/07/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:49:53 - 01/07/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:52:22 - 01/07/2019
+01-Jul-2019 14:52:22 - Done    'fMRI model specification'
+01-Jul-2019 14:52:22 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:52:22 - 01/07/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:52:29 - 01/07/2019
+========================================================================
+Chunk   1/5                             :                  ...processing                       ...doneChunk   2/5                             :                  ...processing                       ...doneChunk   3/5                             :                  ...processing                       ...doneChunk   4/5                             :                  ...processing                       ...doneChunk   5/5                             :                  ...processing                       ...done
+Temporal non-sphericity (99306 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...3.053732e+02 [+4.25]
+  ReML Iteration 2                      :        ...3.634569e+00 [+4.50]
+  ReML Iteration 3                      :        ...4.878681e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             14:54:12 - 01/07/2019
+========================================================================
+Chunk   1/5                             :                  ...processing                       ...doneChunk   2/5                             :                  ...processing                       ...doneChunk   3/5                             :                  ...processing                       ...doneChunk   4/5                             :                  ...processing                       ...doneChunk   5/5                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:55:21 - 01/07/2019
+Done
+01-Jul-2019 14:55:21 - Done    'Model estimation'
+01-Jul-2019 14:55:21 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:23 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:23 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-placebo/VOI_FPI_1.mat
+01-Jul-2019 14:55:24 - Done    'Volume of Interest'
+01-Jul-2019 14:55:24 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:26 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:26 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-placebo/VOI_MFG_1.mat
+01-Jul-2019 14:55:27 - Done    'Volume of Interest'
+01-Jul-2019 14:55:27 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:29 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:29 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-placebo/VOI_cMFG_1.mat
+01-Jul-2019 14:55:30 - Done    'Volume of Interest'
+01-Jul-2019 14:55:30 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:32 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:32 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-placebo/VOI_SFS_1.mat
+01-Jul-2019 14:55:34 - Done    'Volume of Interest'
+01-Jul-2019 14:55:34 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:36 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:36 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-placebo/VOI_IFS_1.mat
+01-Jul-2019 14:55:37 - Done    'Volume of Interest'
+01-Jul-2019 14:55:37 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:39 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:39 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-placebo/VOI_IFJ_1.mat
+01-Jul-2019 14:55:40 - Done    'Volume of Interest'
+01-Jul-2019 14:55:40 - Done
+
+Initialising outputdir for  subject 48 and session 56 and now lets run first level analysis 
+Initialising outputdir for  subject 116 and session olcapone and now lets run first level analysis 
+
+
+------------------------------------------------------------------------
+01-Jul-2019 14:55:43 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 14:55:43 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:55:44 - 01/07/2019
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:55:44 - 01/07/2019
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:58:10 - 01/07/2019
+01-Jul-2019 14:58:10 - Done    'fMRI model specification'
+01-Jul-2019 14:58:10 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:58:10 - 01/07/2019
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:58:17 - 01/07/2019
+========================================================================
+Chunk   1/5                             :                  ...processing                       ...doneChunk   2/5                             :                  ...processing                       ...doneChunk   3/5                             :                  ...processing                       ...doneChunk   4/5                             :                  ...processing                       ...doneChunk   5/5                             :                  ...processing                       ...done
+Temporal non-sphericity (99510 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...3.128121e+02 [+4.25]
+  ReML Iteration 2                      :        ...4.971397e+00 [+4.50]
+  ReML Iteration 3                      :        ...3.546379e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:00:00 - 01/07/2019
+========================================================================
+Chunk   1/5                             :                  ...processing                       ...doneChunk   2/5                             :                  ...processing                       ...doneChunk   3/5                             :                  ...processing                       ...doneChunk   4/5                             :                  ...processing                       ...doneChunk   5/5                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:01:13 - 01/07/2019
+Done
+01-Jul-2019 15:01:13 - Done    'Model estimation'
+01-Jul-2019 15:01:13 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 15:01:15 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 15:01:15 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-tolcapone/VOI_FPI_1.mat
+01-Jul-2019 15:01:17 - Done    'Volume of Interest'
+01-Jul-2019 15:01:17 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 15:01:18 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 15:01:18 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-tolcapone/VOI_MFG_1.mat
+01-Jul-2019 15:01:20 - Done    'Volume of Interest'
+01-Jul-2019 15:01:20 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 15:01:21 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 15:01:22 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-tolcapone/VOI_cMFG_1.mat
+01-Jul-2019 15:01:23 - Done    'Volume of Interest'
+01-Jul-2019 15:01:23 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 15:01:25 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 15:01:25 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-tolcapone/VOI_SFS_1.mat
+01-Jul-2019 15:01:26 - Done    'Volume of Interest'
+01-Jul-2019 15:01:26 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 15:01:28 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 15:01:28 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-tolcapone/VOI_IFS_1.mat
+01-Jul-2019 15:01:29 - Done    'Volume of Interest'
+01-Jul-2019 15:01:29 - Done
+
+
+
+------------------------------------------------------------------------
+01-Jul-2019 15:01:31 - Running job #1
+------------------------------------------------------------------------
+01-Jul-2019 15:01:31 - Running 'Volume of Interest'
+   VOI saved as /home/despoC/dvogel/rsfMRI_DA_Hierarchy/rsfMRI_DA_Analysis_DAVID/fMRIprep/DA_team_rsfMRI/spDCM/afni_spDCM_task/sub-056/session-tolcapone/VOI_IFJ_1.mat
+01-Jul-2019 15:01:32 - Done    'Volume of Interest'
+01-Jul-2019 15:01:32 - Done
+

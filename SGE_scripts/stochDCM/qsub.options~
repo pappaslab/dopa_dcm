@@ -1,0 +1,8 @@
+-o /home/despoC/dvogel/fMRI_script_Despolab/fMRIprep/SGE_scripts/spDCM_first_level_SGE/logs/
+-e /home/despoC/dvogel/fMRI_script_Despolab/fMRIprep/SGE_scripts/spDCM_first_level_SGE/logs/
+-j yes
+-m as
+-l mem_free=1.67G
+-pe threaded 6
+-binding linear:6
+-wd /home/despoC/dvogel/fMRI_script_Despolab/fMRIprep/SGE_scripts/spDCM_first_level_SGE/logs/

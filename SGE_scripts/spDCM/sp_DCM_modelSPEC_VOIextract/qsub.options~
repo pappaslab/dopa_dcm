@@ -1,0 +1,9 @@
+-o /home/despoC/dvogel/fMRI_script_Despolab/DCM_scripts/SGE_scripts/spDCM/sp_DCM_modelSPEC_VOIextract/logs/
+-e /home/despoC/dvogel/fMRI_script_Despolab/DCM_scripts/SGE_scripts/spDCM/sp_DCM_modelSPEC_VOIextract/logs/
+-j yes
+-m as
+-l mem_free=2G
+-pe threaded 6
+-binding linear:6
+#-l h="nx2|nx12|nx28|nx29"
+-wd /home/despoC/dvogel/fMRI_script_Despolab/DCM_scripts/SGE_scripts/spDCM/sp_DCM_modelSPEC_VOIextract/logs/

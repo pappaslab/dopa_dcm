@@ -1,0 +1,184 @@
+subject is for this stochDCM first level is 015
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory:
+/usr/local/fsl-5.0.11/bin/fsl/matlab] 
+[> In path (line 109)
+  In startup (line 24)
+  In matlabrc (line 225)] 
+
+	Academic License
+
+
+Inverting parent model... 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+EM:(+): 1     F: 0.000e+00 dF predicted: 9.131e+00  actual: -1.829e+02 (1.03 sec)
+EM:(+): 2     F: -1.829e+02 dF predicted: 1.048e+01  actual: 1.025e+01 (1.02 sec)
+EM:(+): 3     F: -1.727e+02 dF predicted: 1.815e+01  actual: 3.761e+01 (1.04 sec)
+EM:(+): 4     F: -1.351e+02 dF predicted: 3.243e+01  actual: 6.553e+01 (1.04 sec)
+EM:(+): 5     F: -6.955e+01 dF predicted: 4.128e+01  actual: 7.293e+01 (1.03 sec)
+EM:(+): 6     F: 3.380e+00 dF predicted: 5.545e+01  actual: 1.186e+02 (1.11 sec)
+EM:(+): 7     F: 1.220e+02 dF predicted: 9.276e+01  actual: 2.800e+02 (1.04 sec)
+EM:(+): 8     F: 4.020e+02 dF predicted: 2.764e+02  actual: 8.743e+02 (1.05 sec)
+EM:(+): 9     F: 1.276e+03 dF predicted: 1.091e+03  actual: 1.032e+03 (1.10 sec)
+EM:(+): 10     F: 2.309e+03 dF predicted: 6.402e+02  actual: 3.885e+02 (1.03 sec)
+EM:(+): 11     F: 2.697e+03 dF predicted: 2.778e+02  actual: 1.648e+02 (1.07 sec)
+EM:(+): 12     F: 2.862e+03 dF predicted: 2.499e+02  actual: 1.993e+02 (1.02 sec)
+EM:(+): 13     F: 3.061e+03 dF predicted: 1.879e+02  actual: 1.498e+02 (1.01 sec)
+EM:(+): 14     F: 3.211e+03 dF predicted: 1.905e+02  actual: 1.417e+02 (1.02 sec)
+EM:(+): 15     F: 3.353e+03 dF predicted: 8.958e+01  actual: 6.103e+01 (1.07 sec)
+EM:(+): 16     F: 3.414e+03 dF predicted: 6.464e+01  actual: 4.265e+01 (1.08 sec)
+EM:(+): 17     F: 3.456e+03 dF predicted: 2.662e+01  actual: 1.987e+01 (1.24 sec)
+EM:(+): 18     F: 3.476e+03 dF predicted: 1.594e+01  actual: 1.315e+01 (1.00 sec)
+EM:(+): 19     F: 3.489e+03 dF predicted: 1.416e+01  actual: 1.247e+01 (0.93 sec)
+EM:(+): 20     F: 3.502e+03 dF predicted: 1.801e+01  actual: 1.470e+01 (0.98 sec)
+EM:(+): 21     F: 3.517e+03 dF predicted: 2.851e+01  actual: 1.870e+01 (0.92 sec)
+EM:(+): 22     F: 3.535e+03 dF predicted: 5.135e+01  actual: 2.078e+01 (0.96 sec)
+EM:(+): 23     F: 3.556e+03 dF predicted: 8.705e+01  actual: 3.486e+01 (1.02 sec)
+EM:(+): 24     F: 3.591e+03 dF predicted: 7.457e+01  actual: 4.003e+01 (1.02 sec)
+EM:(+): 25     F: 3.631e+03 dF predicted: 1.641e+01  actual: 1.021e+01 (0.91 sec)
+EM:(+): 26     F: 3.641e+03 dF predicted: 2.414e+00  actual: 1.966e+00 (0.82 sec)
+EM:(+): 27     F: 3.643e+03 dF predicted: 8.073e-01  actual: 7.156e-01 (0.71 sec)
+EM:(+): 28     F: 3.644e+03 dF predicted: 3.627e-01  actual: 3.733e-01 (0.82 sec)
+EM:(+): 29     F: 3.644e+03 dF predicted: 1.949e-01  actual: 1.653e-01 (0.87 sec)
+EM:(+): 30     F: 3.644e+03 dF predicted: 8.992e-02  actual: 9.394e-02 (0.76 sec)
+EM:(+): 31     F: 3.644e+03 dF predicted: 5.584e-02  actual: 3.544e-02 (0.67 sec)
+EM:(+): 32     F: 3.644e+03 dF predicted: 3.296e-02  actual: 4.903e-02 (0.61 sec)
+EM:(+): 33     F: 3.644e+03 dF predicted: 1.985e-02  convergence
+
+Inverting nested models using BMR... 
+1 out of 20 free parameters removed 
+0 out of 19 free parameters removed 
+ 
+3 models in Occams window:
+	Model 1, p(m|Y)=0.01
+	Model 2, p(m|Y)=0.00
+	Model 3, p(m|Y)=0.98
+Averaging models in Occams window...
+		 Finished first level DCM models 
+
+Inverting parent model... 
+EM:(+): 1     F: 0.000e+00 dF predicted: 2.090e+01  actual: -2.448e+02 (1.21 sec)
+EM:(+): 2     F: -2.448e+02 dF predicted: 2.299e+01  actual: 6.475e+01 (1.07 sec)
+EM:(+): 3     F: -1.801e+02 dF predicted: 5.306e+01  actual: 1.092e+02 (1.03 sec)
+EM:(+): 4     F: -7.090e+01 dF predicted: 1.002e+02  actual: 9.383e+01 (1.04 sec)
+EM:(+): 5     F: 2.293e+01 dF predicted: 1.027e+02  actual: 1.596e+02 (1.06 sec)
+EM:(+): 6     F: 1.825e+02 dF predicted: 9.348e+01  actual: 2.964e+02 (1.05 sec)
+EM:(+): 7     F: 4.789e+02 dF predicted: 2.434e+02  actual: 5.733e+02 (1.05 sec)
+EM:(+): 8     F: 1.052e+03 dF predicted: 7.118e+02  actual: 8.333e+02 (1.03 sec)
+EM:(+): 9     F: 1.886e+03 dF predicted: 7.617e+02  actual: 4.604e+02 (1.06 sec)
+EM:(+): 10     F: 2.346e+03 dF predicted: 4.686e+02  actual: 3.196e+02 (1.06 sec)
+EM:(+): 11     F: 2.666e+03 dF predicted: 4.133e+02  actual: 2.181e+02 (1.08 sec)
+EM:(+): 12     F: 2.884e+03 dF predicted: 3.639e+02  actual: 2.071e+02 (1.08 sec)
+EM:(+): 13     F: 3.091e+03 dF predicted: 1.769e+02  actual: 1.029e+02 (1.06 sec)
+EM:(+): 14     F: 3.194e+03 dF predicted: 6.632e+01  actual: 3.020e+01 (1.03 sec)
+EM:(+): 15     F: 3.224e+03 dF predicted: 4.619e+01  actual: 1.652e+01 (1.00 sec)
+EM:(+): 16     F: 3.240e+03 dF predicted: 6.599e+01  actual: -1.189e+01 (1.04 sec)
+EM:(-): 17     F: 3.240e+03 dF predicted: 4.064e+00  actual: 2.247e+00 (0.76 sec)
+EM:(+): 18     F: 3.243e+03 dF predicted: 1.241e+00  actual: 1.197e+00 (0.63 sec)
+EM:(+): 19     F: 3.244e+03 dF predicted: 1.812e+00  actual: 1.734e+00 (0.64 sec)
+EM:(+): 20     F: 3.245e+03 dF predicted: 2.546e+00  actual: 2.437e+00 (0.63 sec)
+EM:(+): 21     F: 3.248e+03 dF predicted: 3.472e+00  actual: 3.319e+00 (0.64 sec)
+EM:(+): 22     F: 3.251e+03 dF predicted: 4.618e+00  actual: 4.443e+00 (0.64 sec)
+EM:(+): 23     F: 3.256e+03 dF predicted: 6.149e+00  actual: 5.951e+00 (0.70 sec)
+EM:(+): 24     F: 3.262e+03 dF predicted: 8.255e+00  actual: 7.939e+00 (0.83 sec)
+EM:(+): 25     F: 3.270e+03 dF predicted: 1.059e+01  actual: 9.969e+00 (0.79 sec)
+EM:(+): 26     F: 3.280e+03 dF predicted: 1.218e+01  actual: 1.115e+01 (0.63 sec)
+EM:(+): 27     F: 3.291e+03 dF predicted: 1.269e+01  actual: 1.151e+01 (0.69 sec)
+EM:(+): 28     F: 3.302e+03 dF predicted: 1.424e+01  actual: 1.329e+01 (0.91 sec)
+EM:(+): 29     F: 3.316e+03 dF predicted: 1.994e+01  actual: 1.907e+01 (0.94 sec)
+EM:(+): 30     F: 3.335e+03 dF predicted: 3.074e+01  actual: 2.776e+01 (1.07 sec)
+EM:(+): 31     F: 3.362e+03 dF predicted: 3.462e+01  actual: 2.664e+01 (1.15 sec)
+EM:(+): 32     F: 3.389e+03 dF predicted: 2.261e+01  actual: 1.621e+01 (1.01 sec)
+EM:(+): 33     F: 3.405e+03 dF predicted: 1.211e+01  actual: 9.574e+00 (0.95 sec)
+EM:(+): 34     F: 3.415e+03 dF predicted: 9.599e+00  actual: 8.362e+00 (0.96 sec)
+EM:(+): 35     F: 3.423e+03 dF predicted: 1.182e+01  actual: 1.054e+01 (0.90 sec)
+EM:(+): 36     F: 3.434e+03 dF predicted: 1.805e+01  actual: 1.499e+01 (0.86 sec)
+EM:(+): 37     F: 3.449e+03 dF predicted: 3.419e+01  actual: 2.220e+01 (0.94 sec)
+EM:(+): 38     F: 3.471e+03 dF predicted: 6.256e+01  actual: 3.381e+01 (1.11 sec)
+EM:(+): 39     F: 3.505e+03 dF predicted: 6.247e+01  actual: 3.775e+01 (1.02 sec)
+EM:(+): 40     F: 3.542e+03 dF predicted: 1.369e+01  actual: 9.664e+00 (0.96 sec)
+EM:(+): 41     F: 3.552e+03 dF predicted: 3.646e+00  actual: 3.211e+00 (0.81 sec)
+EM:(+): 42     F: 3.555e+03 dF predicted: 2.253e+00  actual: 2.245e+00 (0.75 sec)
+EM:(+): 43     F: 3.558e+03 dF predicted: 1.955e+00  actual: 1.881e+00 (0.81 sec)
+EM:(+): 44     F: 3.559e+03 dF predicted: 1.724e+00  actual: 1.801e+00 (0.73 sec)
+EM:(+): 45     F: 3.561e+03 dF predicted: 1.800e+00  actual: 1.786e+00 (0.79 sec)
+EM:(+): 46     F: 3.563e+03 dF predicted: 1.816e+00  actual: 1.941e+00 (0.73 sec)
+EM:(+): 47     F: 3.565e+03 dF predicted: 2.086e+00  actual: 2.122e+00 (0.82 sec)
+EM:(+): 48     F: 3.567e+03 dF predicted: 2.237e+00  actual: 2.410e+00 (0.75 sec)
+EM:(+): 49     F: 3.569e+03 dF predicted: 2.639e+00  actual: 2.709e+00 (0.80 sec)
+EM:(+): 50     F: 3.572e+03 dF predicted: 2.780e+00  actual: 2.960e+00 (0.80 sec)
+EM:(+): 51     F: 3.575e+03 dF predicted: 2.968e+00  actual: 3.052e+00 (0.80 sec)
+EM:(+): 52     F: 3.578e+03 dF predicted: 2.954e+00  actual: 3.054e+00 (0.80 sec)
+EM:(+): 53     F: 3.581e+03 dF predicted: 2.764e+00  actual: 2.744e+00 (0.79 sec)
+EM:(+): 54     F: 3.584e+03 dF predicted: 2.390e+00  actual: 2.389e+00 (0.77 sec)
+EM:(+): 55     F: 3.586e+03 dF predicted: 2.015e+00  actual: 1.901e+00 (0.78 sec)
+EM:(+): 56     F: 3.588e+03 dF predicted: 1.524e+00  actual: 1.464e+00 (0.80 sec)
+EM:(+): 57     F: 3.590e+03 dF predicted: 1.097e+00  actual: 1.015e+00 (0.73 sec)
+EM:(+): 58     F: 3.591e+03 dF predicted: 7.520e-01  actual: 7.293e-01 (0.69 sec)
+EM:(+): 59     F: 3.591e+03 dF predicted: 4.779e-01  actual: 4.452e-01 (0.57 sec)
+EM:(+): 60     F: 3.592e+03 dF predicted: 3.132e-01  actual: 3.315e-01 (0.62 sec)
+EM:(+): 61     F: 3.592e+03 dF predicted: 2.211e-01  actual: 2.049e-01 (0.63 sec)
+EM:(+): 62     F: 3.592e+03 dF predicted: 1.431e-01  actual: 1.504e-01 (0.61 sec)
+EM:(+): 63     F: 3.593e+03 dF predicted: 8.935e-02  actual: 8.175e-02 (0.61 sec)
+EM:(+): 64     F: 3.593e+03 dF predicted: 5.392e-02  actual: 6.267e-02 (0.57 sec)
+EM:(+): 65     F: 3.593e+03 dF predicted: 3.013e-02  actual: 2.081e-02 (0.59 sec)
+EM:(+): 66     F: 3.593e+03 dF predicted: 2.570e-02  convergence
+
+Inverting nested models using BMR... 
+4 out of 20 free parameters removed 
+0 out of 16 free parameters removed 
+ 
+3 models in Occams window:
+	Model 1, p(m|Y)=0.14
+	Model 2, p(m|Y)=0.00
+	Model 3, p(m|Y)=0.86
+Averaging models in Occams window...
+		 Finished first level DCM models 
+
+Inverting parent model... 
+EM:(+): 1     F: 0.000e+00 dF predicted: 6.060e+01  actual: 7.142e+01 (1.19 sec)
+EM:(+): 2     F: 7.142e+01 dF predicted: 8.539e+01  actual: 8.450e+01 (1.16 sec)
+EM:(+): 3     F: 1.559e+02 dF predicted: 1.079e+02  actual: 9.320e+01 (1.09 sec)
+EM:(+): 4     F: 2.491e+02 dF predicted: 1.051e+02  actual: 1.017e+02 (1.06 sec)
+EM:(+): 5     F: 3.508e+02 dF predicted: 1.515e+02  actual: 1.530e+02 (1.15 sec)
+EM:(+): 6     F: 5.038e+02 dF predicted: 2.383e+02  actual: 2.413e+02 (1.18 sec)
+EM:(+): 7     F: 7.451e+02 dF predicted: 4.140e+02  actual: 4.511e+02 (1.12 sec)
+EM:(+): 8     F: 1.196e+03 dF predicted: 6.046e+02  actual: 6.321e+02 (1.09 sec)
+EM:(+): 9     F: 1.828e+03 dF predicted: 4.385e+02  actual: 3.443e+02 (1.09 sec)
+EM:(+): 10     F: 2.173e+03 dF predicted: 1.816e+02  actual: 1.331e+02 (0.98 sec)
+EM:(+): 11     F: 2.306e+03 dF predicted: 6.415e+01  actual: 4.604e+01 (0.93 sec)
+EM:(+): 12     F: 2.352e+03 dF predicted: 4.334e+01  actual: 3.254e+01 (0.84 sec)
+EM:(+): 13     F: 2.384e+03 dF predicted: 4.012e+01  actual: 2.752e+01 (0.76 sec)
+EM:(+): 14     F: 2.412e+03 dF predicted: 2.405e+01  actual: 1.576e+01 (0.69 sec)
+EM:(+): 15     F: 2.428e+03 dF predicted: 6.706e+00  actual: 4.554e+00 (0.68 sec)
+EM:(+): 16     F: 2.432e+03 dF predicted: 1.843e+00  actual: 1.203e+00 (0.73 sec)
+EM:(+): 17     F: 2.433e+03 dF predicted: 6.405e-01  actual: 4.778e-01 (0.62 sec)
+EM:(+): 18     F: 2.434e+03 dF predicted: 3.377e-01  actual: 1.137e-01 (0.69 sec)
+EM:(+): 19     F: 2.434e+03 dF predicted: 2.078e-01  actual: 1.666e-01 (0.61 sec)
+EM:(+): 20     F: 2.434e+03 dF predicted: 1.481e-01  actual: -1.065e-02 (0.70 sec)
+EM:(-): 21     F: 2.434e+03 dF predicted: 5.322e-03  actual: -7.546e-04 (0.60 sec)
+EM:(-): 22     F: 2.434e+03 dF predicted: 2.850e-03  actual: -2.818e-03 (0.59 sec)
+EM:(-): 23     F: 2.434e+03 dF predicted: 8.095e-04  actual: -3.929e-04 (0.61 sec)
+EM:(-): 24     F: 2.434e+03 dF predicted: 1.247e-04  convergence
+
+Inverting nested models using BMR... 
+1 out of 20 free parameters removed 
+0 out of 19 free parameters removed 
+ 
+2 models in Occams window:
+	Model 1, p(m|Y)=0.00
+	Model 2, p(m|Y)=1.00
+Averaging models in Occams window...
+		 Finished first level DCM models 
